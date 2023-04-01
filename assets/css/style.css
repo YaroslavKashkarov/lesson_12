@@ -1,0 +1,119 @@
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.header {
+  margin-top: 10px;
+  margin-bottom: 10px;
+
+  background-color: rgba(212, 208, 208, 0.662745098);
+}
+
+.container {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.card-header {
+  background-color: #d34646;
+}
+
+.text {
+  font-weight: 600;
+}
+
+.card {
+  text-align: center;
+}
+
+.card-title {
+  color: white;
+
+  font-size: 20px;
+  font-weight: 300;
+}
+
+.card-text {
+  color: white;
+}
+
+.card-body {
+  background-color: #0d6efd;
+}
+
+.card-footer {
+  background-color: #d34646;
+
+  font-size: 15px;
+  font-weight: 600;
+  font-style: italic;
+}
+
+.btn {
+  color: rgb(0, 0, 0);
+  border-color: rgba(39, 38, 38, 0.572);
+  background-color: #ffaa0b;
+}
+
+.btn:hover {
+  -webkit-transition: 0.8s;
+       -o-transition: 0.8s;
+          transition: 0.8s;
+  text-decoration: none;
+
+  color: #ffffff;
+  border-color: rgba(253, 253, 253, 0.572);
+  background-color: #21731b;
+}
+
+.navbar {
+  border-radius: 5px;
+  background-color: #198754;
+}
+
+.nav-link {
+  color: white;
+}
+
+.navbar-brand {
+  margin: 5px;
+
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.carousel-inner {
+  border-radius: 5px;
+}
+
+.accordion-button {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.accordion-body {
+  text-align: center;
+
+  color: darkslateblue;
+  background-color: wheat;
+}
+
+.form-label {
+  margin-bottom: 10px;
+
+  text-decoration: underline;
+
+  font-weight: 600;
+}
+
+.footer-text {
+  bottom: 10px;
+
+  display: block;
+
+  margin: 10px;
+
+  text-align: center;
+
+  font-weight: 600;
+  font-style: italic;
+}

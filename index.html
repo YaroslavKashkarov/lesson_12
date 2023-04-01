@@ -1,0 +1,308 @@
+<!doctype html>
+<html lang="zxx">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Bootstrap project</title>
+  <link rel="stylesheet" href="assets/css/normalize.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+
+  <header class="header">
+    <div class="container">
+      <div class="row">
+        <div class="col">
+          <nav class="navbar navbar-expand-lg">
+            <div class="container">
+              <img src="assets/img/logo.png" alt="Логотип">
+              <a class="navbar-brand">
+                <h1>Logo</h1>
+              </a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link" aria-current="page" href="#">Главная</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">О нас</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">График работы</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Как нас найти</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                      aria-expanded="false">
+                      Блог
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">Коментарии</a></li>
+                      <li><a class="dropdown-item" href="#">Статьи</a></li>
+                      <li><a class="dropdown-item" href="#">Контакты</a></li>
+                    </ul>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                      aria-expanded="false">
+                      Как с нами связаться
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">Телефон</a></li>
+                      <li><a class="dropdown-item" href="#">Email</a></li>
+                      <li><a class="dropdown-item" href="#">Социальные сети</a></li>
+                    </ul>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="row">
+        <div class="col-xl-3 col-lg-3 col-md-4">
+          <div id="carouselExampleRide" class="carousel slide" data-bs-ride="true">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="assets/img/img_1.jpg" class="d-block w-100" alt="Картинка 1">
+              </div>
+              <div class="carousel-item">
+                <img src="assets/img/img_2.jpg" class="d-block w-100" alt="Картинка 2">
+              </div>
+              <div class="carousel-item">
+                <img src="assets/img/img_3.jpg" class="d-block w-100" alt="Картинка 3">
+              </div>
+              <div class="carousel-item">
+                <img src="assets/img/img_4.jpg" class="d-block w-100" alt="Картинка 4">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleRide"
+              data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Назад</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleRide"
+              data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Вперед</span>
+            </button>
+          </div>
+        </div>
+
+        <div class="col-xl-6 col-lg-6 col-md-8">
+          <div class="accordion" id="accordionPanelsStayOpenExample">
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="panelsStayOpen-headingOne">
+                <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true"
+                  aria-controls="panelsStayOpen-collapseOne">
+                  Информация по SEO
+                </button>
+              </h2>
+              <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show"
+                aria-labelledby="panelsStayOpen-headingOne">
+                <div class="accordion-body">
+                  <strong>Необходимо собрать актуальные темы для заданной ниши</strong> – все, что может быть
+                  интересно целевым пользователям, например достоинства и недостатки того или иного продукта, критерии
+                  его
+                  выбора и
+                  т.д.
+                  Наличие интереса к теме. Следующим этапом необходимо понять, какая из подобранных вами тем наиболее
+                  актуальна, например, посмотрев частотность каждой из них при помощи сервиса Яндекс.Вордстат.
+                  Подбор запросов. После того как тема была выбрана, необходимо перейти к подбору ключевых запросов,
+                  например, воспользовавшись инструментом Яндекс Вордстат.
+                  Заголовок статьи. Очень важным является формирование заголовка – он должен быть цепляющим и вызывать
+                  желание у пользователей прочитать именно вашу статью.
+                  Разработка структуры статьи. Здесь необходимо заняться структурированием информации и проработкой
+                  подзаголовков, которые будут более полно освещать подтемы статьи, помогая её раскрыть.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false"
+                  aria-controls="panelsStayOpen-collapseTwo">
+                  Аналитика даных запросов в интернете
+                </button>
+              </h2>
+              <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse"
+                aria-labelledby="panelsStayOpen-headingTwo">
+                <div class="accordion-body">
+                  <strong>Анализ конкурентов в выдаче</strong>
+                  <br>Для формирования максимально релевантной сео-статьи необходимо
+                  сделать конкурентный анализ, для этого:
+                  вводим в поисковой системе интересующий нас запрос;
+                  просматриваем результаты поисковой выдачи в ТОПе;
+                  анализируем статьи;
+                  обращаем внимание на наиболее важные элементы и преимущества данных статей, это может быть:
+                  наличие содержания;
+                  тематические изображения и видеоматериалы;
+                  полезные графики и таблицы;
+                  стилизованные выделения важных фрагментов;
+                  ссылки на дополнительные источники;
+                  и т.д.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="panelsStayOpen-headingThree">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false"
+                  aria-controls="panelsStayOpen-collapseThree">
+                  Структурирование статей SEO
+                </button>
+              </h2>
+              <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse"
+                aria-labelledby="panelsStayOpen-headingThree">
+                <div class="accordion-body">
+                  <strong>Cодержание</strong><br>
+                  В случае, если контент, изложенный на странице, является достаточно объемным, желательно реализовать
+                  в
+                  его
+                  начале блок с содержанием. Это сделает не только более комфортным пользование ресурсом, но и
+                  позволит
+                  реализовать материал в наиболее информативным для пользователей формате: можно будет сразу увидеть и
+                  понять,
+                  какие моменты освещаются в изложенном тексте.
+                  <br><strong>Заголовки</strong><br>
+                  Наименование статьи оформляется заголовком h1 – он должен быть только один на странице, в нём
+                  необходимо
+                  использовать самый высокочастотный запрос.
+                  Для подзаголовков используются теги h2 – они являются вторыми по важности, и в них так же желательно
+                  использовать вхождение ключевых запросов, описывающих основной смысл текста. Чаще всего в них
+                  используются
+                  среднечастотные ключевые слова.
+                  Так же можно использовать заголовки h3 - они, как правило, следуют за h2. Важно не нарушать
+                  описанную
+                  иерархию. Чаще всего в данные заголовки могут содержать вхождения низкочастотных запросов.
+                  Можно использовать и заголовки h4, в них, как правило, прописывать ключевые слова не требуется.
+                  Данный
+                  заголовок подчиняется заголовку h3.
+                  <br><strong>Микроразметка</strong><br>
+                  Использование микроразметки <code>Schema.org</code> позволит поисковым системам лучше понимать
+                  контент,
+                  представленный на
+                  странице, и позволяет формировать улучшенный сниппет: на декстопной версии в него может
+                  подтягиваться
+                  дата
+                  публикации материала, а в мобильной версии еще и изображение. Таким образом наличие разметки Article
+                  позволяет увеличить кликабельность.
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-xl-3 col-lg-3">
+          <div class="card">
+            <div class="card-header">
+              <h4 class="text">Информация о СЕО</h4>
+            </div>
+            <div class="card-body">
+              <h5 class="card-title">Задачи SEO продвиджения</h5>
+              <p class="card-text">
+                Предлогаем услуги по продвиджению сайтов в поисковых системах и оптимизируем сематическое ядро сайта,
+                загрузку станиц, метаданные, ключевые слова с
+                помощью топовых иструментов и наших программистов. Мы уже 7 лет являемся лидером по сетевому маркетингу
+                в
+                своей сфере. Наша команда исключительно состоит из профессионалов
+                своего дела. Нашими
+                клиентами являются такие сайты и маректплейсы как: Rozetka, Allo, Empik, E-katalog.
+              </p>
+              <a href="#" class="btn">Подать заявку</a>
+            </div>
+            <div class="card-footer">
+              Обновлено 1 день назад
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <form class="row g-3">
+        <div class="col-md-6">
+          <label for="email" class="form-label">Email</label>
+          <input type="email" class="form-control" id="email" placeholder="Введите email">
+        </div>
+        <div class="col-md-6">
+          <label for="password" class="form-label">Пароль</label>
+          <input type="password" class="form-control" id="password" placeholder="Введите пароль">
+        </div>
+        <div class="col-6">
+          <label for="adres" class="form-label">Адрес</label>
+          <input type="text" class="form-control" id="adres" placeholder="Введите адрес">
+        </div>
+        <div class="col-6">
+          <label for="tel" class="form-label">Телефон</label>
+          <input id="tel" name="tel" class="form-control" pattern="[0-9]{2}-[0-9]{2}-[0-9]{3}-[0-9]{2}"
+            placeholder="Ваш телефон +380-XX-XX-XXX-XX">
+        </div>
+        <div class="col-md-6">
+          <label id="city" class="form-label">Город</label>
+          <select id="text" class="form-select">
+            <option selected disabled value="Город">Выберите город</option>
+            <option>Киев</option>
+            <option>Харьков</option>
+            <option>Донецк</option>
+            <option>Львов</option>
+            <option>Житомир</option>
+            <option>Чернигов</option>
+            <option>Херсон</option>
+            <option>Николаев</option>
+            <option>Сумы</option>
+            <option>Днепр</option>
+          </select>
+        </div>
+        <div class="col-md-6">
+          <label for="inputState" class="form-label">Пол</label>
+          <select id="inputState" class="form-select">
+            <option selected disabled value="">Выберите пол</option>
+            <option>Мужской</option>
+            <option>Женский</option>
+          </select>
+        </div>
+        <div class="col-12">
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" id="gridCheck">
+            <label class="form-check-label" for="gridCheck">
+              Соглашаюсь с файлами cookies
+            </label>
+          </div>
+        </div>
+        <div class="d-grid gap-2 col-4 mx-auto">
+          <button type="submit" class="btn mx-2">Отправить данные</button>
+          <button type="submit" class="btn mx-2">Сбросить данные</button>
+        </div>
+      </form>
+    </div>
+
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <div class="footer-text">@copy студент Кашкаров Ярослав, 2023</div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
